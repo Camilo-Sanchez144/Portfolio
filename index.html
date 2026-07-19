@@ -1,0 +1,930 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yosed Camilo Sánchez | Portfolio</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="./img/Icono.png">
+</head>
+<body>
+<header class="navbar">
+    <div class="logo">CamiloDev</div>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home" data-es="Home" data-en="Home">Home</a></li>
+            <li><a href="#about" data-es="Acerca de mí" data-en="About me">Acerca de mí</a></li>
+            <li><a href="#skills" data-es="Habilidades" data-en="Skills">Habilidades</a></li>
+            <li><a href="#experience" data-es="Experiencia" data-en="Experience">Experiencia</a></li>
+            <li><a href="#projects" data-es="Portafolio" data-en="Portfolio">Portafolio</a></li>
+            <li><a href="#contact" data-es="Contáctame" data-en="Contact me">Contáctame</a></li>
+        </ul>
+    </nav>
+
+    <button id="langToggle" class="lang-toggle">ES</button>
+
+<label class="switch">
+
+    <input type="checkbox" id="miSwiche">
+
+    <span class="slider">
+        <i class="fa-solid fa-moon"></i>
+        <i class="fa-solid fa-sun"></i>
+    </span>
+
+</label>
+</header>
+
+<section id="home" class="hero">
+
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/yosed-camilo-sanchez-pinilla-full-stack-developer/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/Camilo-Sanchez144" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="mailto:camilos0704@gmail.com">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <div class="hero-content">
+        <h1 data-es-html="Hola, soy <br> Yosed Camilo Sánchez"
+            data-en-html="Hi, I'm <br> Yosed Camilo Sánchez">Hi, I'm <br> Yosed Camilo Sánchez</h1>
+
+        <h2 data-es-html="Ingeniero de Software <br>Full-Stack, Automatización y Ciberseguridad"
+            data-en-html="Software Engineer <br>Full-Stack, Automation & Cybersecurity">Ingeniero de Software <br>Full-Stack, Automation & Cybersecurity</h2>
+
+        <p data-es="Construyo aplicaciones escalables, automatizo procesos y exploro soluciones de software seguras"
+           data-en="I build scalable applications, automate processes, and explore secure software solutions">Construyo aplicaciones escalables, automatizo procesos y exploro soluciones de software seguras</p>
+
+        <div class="hero-buttons">
+            <a href="#contact" class="btn-primary">
+                <span data-es="Contacto" data-en="Contact" class="btn-contacto">Contacto</span> <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+    </div>
+    <div class="hero-image">
+        <div class="image-circle">
+            <img src="./img/saludo.png" alt="Camilo">
+        </div>
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <div class="section-header">
+        <h2 data-es="Acerca de mí" data-en="About me">Acerca de mí</h2>
+        <p data-es="Mi introducción" data-en="My introduction">Mi introducción</p>
+    </div>
+
+    <div class="about-container">
+
+        <div class="about-image">
+            <img src="./img/YOENLEGO.png" alt="Camilo">
+        </div>
+
+        <div class="about-content">
+
+            <p class="about-text"
+               data-es="Soy estudiante de Ingeniería de Software y lo que realmente me mueve es construir sistemas completos que funcionen de verdad: soluciones que le resuelvan un problema real a una persona o una empresa, no solo código que compila. Por eso disfruto diseñando APIs y arquitecturas escalables, automatizando procesos que antes eran manuales, y explorando DevOps y seguridad ofensiva — todo enfocado en un mismo objetivo: que lo que construyo tenga un impacto medible en cómo trabaja o vive alguien."
+               data-en="I'm a Software Engineering student, and what really drives me is building complete systems that actually work: solutions that solve a real problem for a person or a business, not just code that compiles. That's why I enjoy designing APIs and scalable architectures, automating processes that used to be manual, and exploring DevOps and offensive security — all focused on one goal: making sure what I build has a measurable impact on how someone works or lives.">
+                Soy estudiante de Ingeniería de Software y lo que realmente me mueve es
+                construir sistemas completos que funcionen de verdad: soluciones que le
+                resuelvan un problema real a una persona o una empresa, no solo código que
+                compila.
+
+                Por eso disfruto diseñando APIs y arquitecturas escalables, automatizando
+                procesos que antes eran manuales, y explorando DevOps y seguridad ofensiva —
+                todo enfocado en un mismo objetivo: que lo que construyo tenga un impacto
+                medible en cómo trabaja o vive alguien.
+            </p>
+
+            <div class="stats">
+                <div class="stat">
+                    <h3>2+</h3>
+                    <span data-es="Años de experiencia" data-en="Years of experience">Años de experiencia</span>
+                </div>
+
+                <div class="stat">
+                    <h3>10+</h3>
+                    <span data-es="Proyectos" data-en="Projects">Proyectos</span>
+                </div>
+
+                <div class="stat">
+                    <h3>5+</h3>
+                    <span data-es="Tecnologías" data-en="Technologies">Tecnologías</span>
+                </div>
+            </div>
+
+            <div class="about-buttons">
+                <a href="./assets/CV_Yosed_Camilo_Sanchez_ES.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary"
+                   data-es="Ver CV" data-en="View CV">Ver CV <i class="fa-solid fa-eye"></i></a>
+                <a href="./assets/CV_Yosed_Camilo_Sanchez_ES.pdf"  download class="btn-secondary btn-download"
+                   data-es="Descargar CV" data-en="Download CV">Descargar CV <i class="fa-solid fa-download"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="skills section" id="skills">
+
+    <div class="section-title">
+        <h2 data-es="Habilidades" data-en="Skills">Habilidades</h2>
+        <span data-es="Mi Nivel Técnico" data-en="My Technical Level">Mi Nivel Técnico</span>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skills-content">
+
+            <div class="skills-header">
+                <i class="fa-solid fa-palette skills-icon"></i>
+                <div>
+                    <h1 data-es="Frontend Development" data-en="Frontend Development">Frontend Development</h1>
+                    <span data-es="Diseño UX/UI" data-en="UX/UI Design">Diseño UX/UI</span>
+                </div>
+                <i class="fa-solid fa-chevron-down skills-arrow"></i>
+            </div>
+
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="img/figma.png">
+                    <span>Figma</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/html.png">
+                    <span>HTML</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/css.png">
+                    <span>CSS</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/javascript.png">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/typescript.png">
+                    <span>TypeScript</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/angular.png">
+                    <span>Angular</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/react.png">
+                    <span>React</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-content">
+
+            <div class="skills-header">
+                <i class="fa-solid fa-server skills-icon"></i>
+                <div>
+                    <h1 data-es="Backend" data-en="Backend">Backend</h1>
+                    <span data-es="Lógica de servidor y APIs" data-en="Server logic and APIs">Lógica de servidor y APIs</span>
+                </div>
+                <i class="fa-solid fa-chevron-down skills-arrow"></i>
+            </div>
+
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="img/nodejs.png">
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/typeorm.png">
+                    <span>TypeORM</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/java.png">
+                    <span>Java</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/springboot.png">
+                    <span>SpringBoot</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/delphi.png">
+                    <span>Delphi</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-content">
+
+            <div class="skills-header">
+                <i class="fa-solid fa-database skills-icon"></i>
+                <div>
+                    <h1 data-es="Bases de Datos" data-en="Databases">Bases de Datos</h1>
+                    <span data-es="Persistencia y modelado de datos" data-en="Data persistence and modeling">Persistencia y modelado de datos</span>
+                </div>
+                <i class="fa-solid fa-chevron-down skills-arrow"></i>
+            </div>
+
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="img/mysql.png">
+                    <span>MySQL</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/postgresql.png">
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/firebase.png">
+                    <span>Firebase</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-content">
+
+            <div class="skills-header">
+                <i class="fa-solid fa-gears skills-icon"></i>
+                <div>
+                    <h1 data-es="Automation & DevOps" data-en="Automation & DevOps">Automation & DevOps</h1>
+                    <span data-es="Automatización e infraestructura" data-en="Automation and infrastructure">Automatización e infraestructura</span>
+                </div>
+                <i class="fa-solid fa-chevron-down skills-arrow"></i>
+            </div>
+
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="img/docker.png">
+                    <span>Docker</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/git.png">
+                    <span>Git</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/n8n.svg">
+                    <span>n8n</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/aws.svg">
+                    <span>AWS</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/cicd.png">
+                    <span>CI/CD</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-content">
+
+            <div class="skills-header">
+                <i class="fa-solid fa-shield-halved skills-icon"></i>
+                <div>
+                    <h1 data-es="Cybersecurity" data-en="Cybersecurity">Cybersecurity</h1>
+                    <span data-es="Seguridad ofensiva y análisis" data-en="Offensive security and analysis">Seguridad ofensiva y análisis</span>
+                </div>
+                <i class="fa-solid fa-chevron-down skills-arrow"></i>
+            </div>
+
+            <div class="skills-list">
+                <div class="skill-item">
+                    <img src="img/owasp-zap.png">
+                    <span>OWASP ZAP</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/nuclei.svg">
+                    <span>Nuclei</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/snyk.png">
+                    <span>Snyk</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/mobsf.png">
+                    <span>MobSF</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/nikto.svg">
+                    <span>Nikto</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/stackhawk.png">
+                    <span>StackHawk</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/promptfoo.png">
+                    <span>Promptfoo</span>
+                </div>
+                <div class="skill-item">
+                    <img src="img/medusa.png">
+                    <span>Medusa AI</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="experience section" id="experience">
+
+    <div class="section-title">
+        <h2 data-es="Experiencia" data-en="Experience">Experiencia</h2>
+        <span data-es="Mi experiencia educativa y profesional" data-en="My educational and professional experience">Mi experiencia educativa y profesional</span>
+    </div>
+
+    <div class="experience-tabs">
+
+        <button class="tab-btn active" data-tab="education">
+            <i class="fa-solid fa-graduation-cap"></i> <span data-es="Educación" data-en="Education">Educación</span>
+        </button>
+
+        <button class="tab-btn" data-tab="work">
+            <i class="fa-solid fa-briefcase"></i> <span data-es="Laboral" data-en="Work">Laboral</span>
+        </button>
+
+    </div>
+
+    <div class="timeline active" id="education">
+
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <img src="img/uniempresarial.png" alt="Uniempresarial" class="timeline-logo">
+                <div class="timeline-text">
+                    <h3 data-es="Ingeniería de Software" data-en="Software Engineering">Ingeniería de Software</h3>
+                    <p data-es="Universidad" data-en="University">Universidad</p>
+                    <span data-es="2025 - Actualidad" data-en="2025 - Present">2025 - Actualidad</span>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-item right">
+            <div class="timeline-content">
+                <img src="img/sena.png" alt="sena" class="timeline-logo">
+                <div class="timeline-text">
+                    <h3 data-es="Ingeniería de Software" data-en="Software Engineering">Ingeniería de Software</h3>
+                    <p data-es="Técnico" data-en="Technical degree">Técnico</p>
+                    <span data-es="2022 - 2023" data-en="2022 - 2023">2022 - 2023</span>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <img src="img/generation.png" alt="generation" class="timeline-logo">
+                <div class="timeline-text">
+                    <h3 data-es="Desarrollador Full-Stack Java" data-en="Full-Stack Java Developer">Desarrollador Full-Stack Java</h3>
+                    <p data-es="Bootcamp" data-en="Bootcamp">Bootcamp</p>
+                    <span data-es="2025/05 - 2025/08" data-en="2025/05 - 2025/08">2025/05 - 2025/08</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="timeline" id="work">
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <img src="img/pevaar.png" alt="pevaar" class="timeline-logo">
+                <div class="timeline-text">
+                    <h3 data-es="Ingeniero de Desarrollo" data-en="Development Engineer">Ingeniero de Desarrollo</h3>
+                    <span data-es="2026/01 - Actual" data-en="2026/01 - Present">2026/01 - Actual</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item right">
+            <div class="timeline-content">
+                <img src="img/cyf.png" alt="cyf" class="timeline-logo">
+                <div class="timeline-text">
+                    <h3 data-es="Ingeniero de Desarrollo (Prácticas pre-profesionales)" data-en="Development Engineer (Pre-professional Internship)">Ingeniero de Desarrollo(Practicas pre-profesionales) </h3>
+                    <span data-es="2025/01 - 2025/06" data-en="2025/01 - 2025/06">2025/01 - 2025/06</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item left">
+            <div class="timeline-content">
+                <img src="img/servitel.png" alt="servitel" class="timeline-logo">
+                <div class="timeline-text">
+                    <h3 data-es="Analista Help Desk" data-en="Help Desk Analyst">Analista Help Desk</h3>
+                    <span data-es="2023/11 - 2024/02" data-en="2023/11 - 2024/02">2023/11 - 2024/02</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section class="services section" id="services">
+
+    <div class="section-title">
+        <h2 data-es="Servicios" data-en="Services">Servicios</h2>
+        <span data-es="Lo que ofrezco" data-en="What I offer">Lo que ofrezco</span>
+    </div>
+
+    <div class="services-container">
+
+        <div class="service-card">
+
+            <img src="img/fullstack.png" class="service-img">
+
+            <div class="service-header">
+
+                <div class="service-title">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <div>
+                        <h3 data-es="Full Stack Developer" data-en="Full Stack Developer">Full Stack Developer</h3>
+                        <p data-es="Desarrollo de aplicaciones web y sistemas escalables" data-en="Web application development and scalable systems">Desarrollo de aplicaciones web y Sistemas Escalables</p>
+                    </div>
+
+                </div>
+
+                <i class="fa-solid fa-chevron-up"></i>
+
+            </div>
+
+            <ul>
+                <hr>
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Desarrollo de APIs REST con Node.js y NestJS" data-en="REST API development with Node.js and NestJS">Desarrollo de APIs REST con Node.js y NestJS</span></li>
+
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Autenticación y autorización con JWT y OAuth" data-en="Authentication and authorization with JWT and OAuth">Autenticación y autorización con JWT y OAuth</span></li>
+
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Modelado de bases de datos con MySQL y Firebird" data-en="Database modeling with MySQL and Firebird">Modelado de bases de datos con MySQL y Firebird</span></li>
+
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Integración de frontend y backend en aplicaciones completas" data-en="Frontend and backend integration in complete applications">Integración de frontend y backend en aplicaciones completas</span></li>
+
+            </ul>
+
+        </div>
+        <div class="service-card">
+
+            <img src="img/n8nworkflow.png" class="service-img">
+
+            <div class="service-header">
+
+                <div class="service-title">
+
+                    <i class="fa-solid fa-gears"></i>
+
+                    <div>
+                        <h3 data-es="Automatización" data-en="Automation">Automatización</h3>
+                        <p data-es="Procesos inteligentes y flujos automatizados" data-en="Smart processes and automated workflows">Procesos inteligentes y flujos automatizados</p>
+                    </div>
+
+                </div>
+
+                <i class="fa-solid fa-chevron-up"></i>
+
+            </div>
+
+            <ul>
+                <hr>
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Automatización de flujos de trabajo con n8n" data-en="Workflow automation with n8n">Automatización de flujos de trabajo con n8n</span></li>
+
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Integración de modelos de IA (OpenAI, AWS Bedrock, Gemini)" data-en="AI model integration (OpenAI, AWS Bedrock, Gemini)">Integración de modelos de IA (OpenAI, AWS Bedrock, Gemini)</span></li>
+
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Contenerización de servicios con Docker" data-en="Service containerization with Docker">Contenerización de servicios con Docker</span></li>
+
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Despliegue y orquestación en AWS" data-en="Deployment and orchestration on AWS">Despliegue y orquestación en AWS</span></li>
+
+            </ul>
+
+        </div>
+
+        <div class="service-card">
+
+            <img src="img/escaneo.png" class="service-img">
+
+            <div class="service-header">
+
+                <div class="service-title">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                    <div>
+                        <h3 data-es="Ciberseguridad" data-en="Cybersecurity">Ciberseguridad</h3>
+                        <p data-es="Escaneo y evaluación de vulnerabilidades" data-en="Vulnerability scanning and assessment">Escaneo y evaluación de vulnerabilidades</p>
+                    </div>
+
+                </div>
+
+                <i class="fa-solid fa-chevron-up"></i>
+
+            </div>
+
+            <ul>
+                <hr>
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Escaneo de vulnerabilidades con OWASP ZAP y Nuclei" data-en="Vulnerability scanning with OWASP ZAP and Nuclei">Escaneo de vulnerabilidades con OWASP ZAP y Nuclei</span></li>
+
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Análisis de dependencias con Snyk" data-en="Dependency analysis with Snyk">Análisis de dependencias con Snyk</span></li>
+
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Evaluación de seguridad móvil con MobSF" data-en="Mobile security assessment with MobSF">Evaluación de seguridad móvil con MobSF</span></li>
+
+                <li><i class="fa-regular fa-circle-check"></i><span data-es="Pipelines de seguridad integrados en CI/CD" data-en="Security pipelines integrated into CI/CD">Pipelines de seguridad integrados en CI/CD</span></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="portfolio section" id="projects">
+
+    <div class="section-title">
+        <h2 data-es="Portafolio" data-en="Portfolio">Portafolio</h2>
+        <span data-es="Algunos de mis proyectos" data-en="Some of my projects">Algunos de mis proyectos</span>
+    </div>
+
+    <div class="portfolio-top">
+
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="searchProject" data-es-placeholder="Buscar proyecto..." data-en-placeholder="Search project..." placeholder="Buscar proyecto...">
+        </div>
+
+        <select id="sortProject">
+            <option value="asc" data-es="Título A-Z" data-en="Title A-Z">Título A-Z</option>
+            <option value="desc" data-es="Título Z-A" data-en="Title Z-A">Título Z-A</option>
+        </select>
+
+    </div>
+
+    <div class="portfolio-filters">
+        <button class="filter active" data-filter="all">
+            <span data-es="Todos" data-en="All">Todos</span>
+        </button>
+        <button class="filter" data-filter="backend">
+            <span data-es="Backend" data-en="Backend">Backend</span>
+        </button>
+        <button class="filter" data-filter="automation">
+            <span data-es="Automatización" data-en="Automation">Automatización</span>
+        </button>
+        <button class="filter" data-filter="cybersecurity">
+            <span data-es="Ciberseguridad" data-en="Cybersecurity">Ciberseguridad</span>
+        </button>
+        <button class="filter" data-filter="api">
+            <span data-es="APIs" data-en="APIs">APIs</span>
+        </button>
+    </div>
+
+    <p id="projectCounter"></p>
+
+    <div class="portfolio-grid">
+
+        <div class="project-card" data-title="TrendyShop" data-category="frontend fullstack">
+
+            <div class="project-tags">
+                <span data-es="Frontend Dev" data-en="Frontend Dev">Frontend Dev</span>
+                <span data-es="Fullstack" data-en="Fullstack">Fullstack</span>
+            </div>
+
+            <div class="project-carousel" data-carousel>
+                <div class="carousel-track">
+                    <img src="./img/trendyshop1.png" alt="TrendyShop - vista 1">
+                    <img src="./img/trendyshop2.png" alt="TrendyShop - vista 2">
+                    <img src="./img/trendyshop3.png" alt="TrendyShop - vista 3">
+                    <img src="./img/trendyshop4.png" alt="TrendyShop - vista 4">
+                </div>
+                <button class="carousel-arrow prev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="carousel-arrow next" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <div class="project-info">
+
+                <h3>TrendyShop</h3>
+
+                <p class="project-desc collapsed"
+                   data-es="E-commerce de ropa femenina desarrollado durante una hackathon de Generation. Incluye catálogo de productos, carrito de compras con persistencia en localStorage, y flujo completo de checkout con una interfaz pensada para conversión."
+                   data-en="Women's clothing e-commerce built during a Generation hackathon. Includes a product catalog, a shopping cart with localStorage persistence, and a full checkout flow designed for conversion.">
+                    E-commerce de ropa femenina desarrollado durante una hackathon de Generation.
+                    Incluye catálogo de productos, carrito de compras con persistencia en localStorage,
+                    y flujo completo de checkout con una interfaz pensada para conversión.
+                </p>
+                <a href="#" class="read-more" data-es="Leer más" data-en="Read more">Leer más</a>
+
+                <div class="project-tech">
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                    <span>HTML/CSS</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://e-commerce-trendy-shop.vercel.app/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <span data-es="Ver Demo" data-en="View Demo">Ver Demo</span>
+                    </a>
+                    <a href="https://github.com/Camilo-Sanchez144/E-Commerce-TrendyShop" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="project-card" data-title="Bogotá Tourist" data-category="fullstack">
+
+            <div class="project-tags">
+                <span data-es="Fullstack" data-en="Fullstack">Fullstack</span>
+            </div>
+
+            <div class="project-carousel" data-carousel>
+                <div class="carousel-track">
+                    <img src="./img/bogotatourist1.png" alt="Bogotá Tourist - vista 1">
+                    <img src="./img/bogotatourist2.png" alt="Bogotá Tourist - vista 2">
+                </div>
+                <button class="carousel-arrow prev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="carousel-arrow next" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <div class="project-info">
+
+                <h3>Bogotá Tourist</h3>
+
+                <p class="project-desc collapsed"
+                   data-es="Red social pensada para que quienes no conocen Bogotá se adapten a su cultura y salgan a descubrirla: descubre eventos locales, arma tu plan de viaje día por día con presupuesto, y conecta con personas que ya conocen la ciudad. Incluye integración con Google Maps para ubicar cada plan y evento."
+                   data-en="A social platform designed to help people unfamiliar with Bogotá adapt to its culture and go explore it: discover local events, build a day-by-day trip plan with a budget, and connect with people who already know the city. Includes Google Maps integration to locate each plan and event.">
+                    Red social pensada para que quienes no conocen Bogotá se adapten a su cultura y
+                    salgan a descubrirla: descubre eventos locales, arma tu plan de viaje día por día
+                    con presupuesto, y conecta con personas que ya conocen la ciudad. Incluye
+                    integración con Google Maps para ubicar cada plan y evento.
+                </p>
+                <a href="#" class="read-more" data-es="Leer más" data-en="Read more">Leer más</a>
+
+                <div class="project-tech">
+                    <span>Angular</span>
+                    <span>Node.js</span>
+                    <span>MySQL</span>
+                    <span>TypeORM</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/Camilo-Sanchez144/Bogota_Tourist" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="project-card" data-title="Portfolio Personal" data-category="frontend fullstack">
+
+            <div class="project-tags">
+                <span data-es="Frontend Dev" data-en="Frontend Dev">Frontend Dev</span>
+            </div>
+
+            <div class="project-carousel" data-carousel>
+                <div class="carousel-track">
+                    <img src="./img/portafolio1.png" alt="Portfolio - vista 1">
+                    <img src="./img/portafolio2.png" alt="Portfolio - vista 2">
+                    <img src="./img/portafolio3.png" alt="Portfolio - vista 3">
+                    <img src="./img/portafolio4.png" alt="Portfolio - vista 4">
+                    <img src="./img/portafolio5.png" alt="Portfolio - vista 5">
+                </div>
+                <button class="carousel-arrow prev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="carousel-arrow next" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <div class="project-info">
+
+                <h3 data-es="Portafolio Personal" data-en="Personal Portfolio">Portafolio Personal</h3>
+
+                <p class="project-desc collapsed"
+                data-es="Este mismo sitio: un portafolio construido desde cero con HTML, CSS y JavaScript puro. Incluye modo oscuro/claro con variables CSS, selector de idioma español/inglés, carrusel de proyectos, formulario de contacto validado con envío real vía Formspree, y diseño completamente responsive."
+                data-en="This very site: a portfolio built from scratch with plain HTML, CSS, and JavaScript. Includes a dark/light theme toggle using CSS variables, a Spanish/English language switcher, a project carousel, a validated contact form with real submission via Formspree, and a fully responsive design.">
+                    Este mismo sitio: un portafolio construido desde cero con HTML, CSS y JavaScript puro.
+                    Incluye modo oscuro/claro con variables CSS, selector de idioma español/inglés,
+                    carrusel de proyectos, formulario de contacto validado con envío real vía Formspree,
+                    y diseño completamente responsive.
+                </p>
+                <a href="#" class="read-more" data-es="Leer más" data-en="Read more">Leer más</a>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="TU_LINK_DE_DEPLOY_AQUI" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <span data-es="Ver Demo" data-en="View Demo">Ver Demo</span>
+                    </a>
+                    <a href="https://github.com/Camilo-Sanchez144/My_Portfolio" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="project-card" data-title="API Gestión de Donaciones" data-category="backend api">
+
+            <div class="project-tags">
+                <span data-es="Backend" data-en="Backend">Backend</span>
+                <span data-es="API" data-en="API">API</span>
+            </div>
+
+            <div class="project-carousel" data-carousel>
+                <div class="carousel-track">
+                    <img src="./img/donaciones1.png" alt="Diagrama de arquitectura">
+                    <img src="./img/donaciones2.png" alt="Documentación de la API">
+                </div>
+                <button class="carousel-arrow prev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="carousel-arrow next" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <div class="project-info">
+
+                <h3 data-es="API Gestión de Donaciones" data-en="Donation Management API">API Gestión de Donaciones</h3>
+
+                <p class="project-desc collapsed"
+                   data-es="API REST para la gestión de donaciones, desarrollada con Spring Boot. Incluye modelado de entidades, persistencia con JPA y endpoints documentados para el registro y seguimiento de donaciones."
+                   data-en="REST API for donation management, built with Spring Boot. Includes entity modeling, persistence with JPA, and documented endpoints for registering and tracking donations.">
+                    API REST para la gestión de donaciones, desarrollada con Spring Boot.
+                    Incluye modelado de entidades, persistencia con JPA y endpoints documentados
+                    para el registro y seguimiento de donaciones.
+                </p>
+                <a href="#" class="read-more" data-es="Leer más" data-en="Read more">Leer más</a>
+
+                <div class="project-tech">
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>JPA</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/Camilo-Sanchez144/API-Gestion-Donaciones-con-SpringBoot" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="portfolio-footer">
+        <p data-es-html='¿Querés ver más? En mi <a href="https://github.com/Camilo-Sanchez144" target="_blank">GitHub</a> subo ejercicios, prácticas y experimentos con nuevas tecnologías.'
+           data-en-html='Want to see more? On my <a href="https://github.com/Camilo-Sanchez144" target="_blank">GitHub</a> I upload exercises, practice work, and experiments with new technologies.'>
+            ¿Querés ver más? En mi
+            <a href="https://github.com/Camilo-Sanchez144" target="_blank">GitHub</a>
+            subo ejercicios, prácticas y experimentos con nuevas tecnologías.
+        </p>
+    </div>
+
+</section>
+
+<section class="contact section" id="contact">
+
+    <div class="section-title">
+        <h2 data-es="Contáctame" data-en="Contact me">Contáctame</h2>
+        <span data-es="¿Tienes un proyecto en mente?" data-en="Have a project in mind?">¿Tienes un proyecto en mente?</span>
+    </div>
+
+    <div class="contact-container">
+
+
+        <div class="contact-info">
+
+            <div class="contact-card" data-copy="3012813218">
+                <i class="fa-solid fa-phone"></i>
+                <div class="contact-card-body">
+                    <div class="contact-card-title-row">
+                        <h3 data-es="Teléfono" data-en="Phone">Teléfono</h3>
+                        <i class="fa-regular fa-copy copy-icon"></i>
+                    </div>
+                    <p>3012813218</p>
+                </div>
+            </div>
+
+            <div class="contact-card" data-copy="camilos0704sanchez@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="contact-card-body">
+                    <div class="contact-card-title-row">
+                        <h3 data-es="Email" data-en="Email">Email</h3>
+                        <i class="fa-regular fa-copy copy-icon"></i>
+                    </div>
+                    <p>camilos0704sanchez@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <i class="fa-solid fa-location-dot"></i>
+
+                <div>
+                    <h3 data-es="Ubicación" data-en="Location">Ubicación</h3>
+                    <p data-es="Bogotá-Colombia" data-en="Bogotá, Colombia">Bogotá-Colombia</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/mgogkple" method="POST">
+
+            <input type="text" name="name" data-es-placeholder="Nombre" data-en-placeholder="Name" placeholder="Nombre">
+            <input type="email" name="email" data-es-placeholder="Correo" data-en-placeholder="Email" placeholder="Correo">
+            <input type="text" name="subject" data-es-placeholder="Asunto" data-en-placeholder="Subject" placeholder="Asunto">
+            <textarea name="message" rows="7" data-es-placeholder="Escribe tu mensaje..." data-en-placeholder="Write your message..." placeholder="Escribe tu mensaje..."></textarea>
+
+            <button type="submit" class="btn-primary" data-es="Enviar mensaje" data-en="Send message">Enviar mensaje</button>
+
+            <a href="https://api.whatsapp.com/send/?phone=573012813218&text=Hola%2C+quiero+contactarte+por+tus+servicios.&type=phone_number&app_absent=0" class="btn-whatsapp">
+                <span data-es="WhatsApp" data-en="WhatsApp">WhatsApp</span> <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h2>Yosed Camilo Sánchez</h2>
+
+    <p data-es="Software Developer | Backend, Automatización & Ciberseguridad"
+       data-en="Software Developer | Backend, Automation & Cybersecurity">
+        Software Developer | Backend, Automation & Cybersecurity
+    </p>
+
+    <div class="footer-social">
+
+        <a href="https://github.com/Camilo-Sanchez144" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/yosed-camilo-sanchez-pinilla-full-stack-developer/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:camilos0704@gmail.com">
+            <i class="fas fa-envelope"></i>
+        </a>
+
+    </div>
+
+    <p class="copyright" data-es="© 2026 Yosed Camilo Sánchez. Todos los derechos reservados."
+       data-en="© 2026 Yosed Camilo Sánchez. All rights reserved.">
+        © 2026 Yosed Camilo Sánchez.
+        Todos los derechos reservados.
+    </p>
+
+</footer>
+
+<div id="toast" class="toast">
+    <i class="fa-solid fa-circle-exclamation"></i>
+    <span>Por favor, completa todos los campos requeridos</span>
+</div>
+
+<script src="./js/script.js"></script>
+<div class="wave-bg">
+    <svg viewBox="0 0 1440 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path class="wave-path" d="M0,100 C240,180 480,20 720,80 C960,140 1200,40 1440,100 L1440,200 L0,200 Z"></path>
+    </svg>
+</div>
+</body>
+</html>
