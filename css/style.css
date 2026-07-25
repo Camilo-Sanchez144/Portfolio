@@ -1548,3 +1548,35 @@ input:checked + .slider .fa-sun{
     }
 
 }
+@media (max-width:768px){
+
+    .skills{
+        padding:0 6%;
+    }
+
+    .services{
+        padding:70px 6%;   /* si .services no tiene su propia clase de padding, usá el selector real que envuelve la sección */
+    }
+}
+
+@media (max-width:480px){
+
+    .service-header{
+        flex-wrap:nowrap;      /* antes wrap — ya no lo necesitamos con el fix de abajo */
+        align-items:flex-start;
+    }
+
+    .service-title{
+        flex:1;
+        min-width:0;           /* permite que el texto largo se trunque/ajuste sin empujar al ícono */
+    }
+
+    .service-title p{
+        white-space:normal;
+    }
+
+    .service-header > i.fa-chevron-up{
+        flex-shrink:0;
+        margin-left:8px;
+    }
+}
